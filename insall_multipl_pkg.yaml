@@ -1,5 +1,6 @@
 - name : installing multiple application
   hosts : frontend
+  become : yes
   tasks :
   - name : installing multiple package
     package :
