@@ -1,0 +1,12 @@
+- name : installing multiple application
+  hosts : frontend
+  tasks :
+  - name : installing multiple package
+    package :
+      name : "{{ item }}"
+      state : present
+      loop :
+      - nginx
+      - mysql
+      - mongodb-mongosh
+      - git
