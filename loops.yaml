@@ -1,0 +1,9 @@
+  - name : loops
+    hosts : frontend
+    vars :    
+      timeline : 6
+    tasks :
+      - name : loops
+        debug :
+          msg : "printing the value {{timeline}}"
+        when : timeline > 7
