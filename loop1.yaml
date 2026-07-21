@@ -3,7 +3,7 @@
   tasks :
     - name : looping the items
       debug :
-        msg : "printing the {{ item }}"
+        msg : "{{ item }}"
       loop :
         - linux
         - redhat
