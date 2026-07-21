@@ -15,3 +15,11 @@
     - name : string list
       debug :
         msg :  "{{topic | split(',')}} " 
+    
+    - name : map to list
+      debug :
+        msg :  "{{ taMap | dict2items }} " 
+
+    - name :  list to map
+      debug :
+        msg :  "{{ taMap | items2dict }} " 
