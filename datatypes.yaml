@@ -7,16 +7,16 @@
       vars:
         course: "devops"
         hours: 150
-        tags:
+        tas:
           - linux
           - windows
           - os
           - redhat
           - centos
-        tags_map:
+        tas_map:
           name: "vinay"
           age: 26
           learning: "daily"
 
       ansible.builtin.debug:
-        msg: "printing the value {{ tags[0] }} and {{ tags_map.learning }}"
+        msg: "printing the value {{ tas[0] }} and {{ tas_map.learning }}"
