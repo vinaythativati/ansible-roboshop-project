@@ -1,6 +1,6 @@
 - name : play level variables
   hosts : frontend
-  vars_file :
+  vars_files :
   - courese.yaml
   tasks :
     - name :  printing play variables
