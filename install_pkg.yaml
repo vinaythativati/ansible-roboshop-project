@@ -14,7 +14,7 @@
         enabled : yes
 
     - name : installing nginx 
-      package :
+      service :
         name : nginx
         state : stopped
         enabled : yes
