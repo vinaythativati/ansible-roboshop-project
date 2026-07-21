@@ -6,4 +6,4 @@
       - name : loops
         debug :
           msg : "printing the value {{timeline}}"
-        when : timeline > 7
+        when : timeline > 4
