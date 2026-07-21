@@ -2,7 +2,6 @@
   hosts : frontend
   vars :
     number : 6
-    num : 5
   tasks :
     - name : printing number even or odd
       debug :
@@ -12,4 +11,4 @@
     - name : printing number odd
       debug :
         msg : "printing number odd "
-      when : num%2!==0 
+      when : number%2!==0 
