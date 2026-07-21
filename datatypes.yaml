@@ -1,7 +1,6 @@
 ---
 - name: data types
   hosts: frontend
-  gather_facts: false
 
   tasks:
     - name: this is a value
