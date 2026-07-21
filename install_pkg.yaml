@@ -12,3 +12,9 @@
         name : nginx
         state : started
         enabled : yes
+
+    - name : installing nginx 
+      package :
+        name : nginx
+        state : stopped
+        enabled : yes
