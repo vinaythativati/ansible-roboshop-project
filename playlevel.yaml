@@ -4,6 +4,7 @@
     name : "vinay"
     age : 26
     trainer : "shiva"
+    course : "aiops"
   tasks :
     - name :  printing play variables
       vars : 
