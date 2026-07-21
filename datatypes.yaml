@@ -1,19 +1,19 @@
 - name : data types
   hosts : frontend
   tasks :
-  - name : data types
+  - name : tis is a nalue
     vars :
       course : "devpops"
       hours : 150
       tags :
-      - linux
-      - windows
-      - os
-      - redhat
-      - centos
+        - linux
+        - windows
+        - os
+        - redhat
+        - centos
       tags_map :
         name : "vinay"
         age : 26
         learning : "daily"
     debug : 
-      msg: "printing the value {{tags[0]}} and {{tags_map.learning}}"
+      msg: "printing the value {{ tags[0] }} and {{tags_map.learning}}"
