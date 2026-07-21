@@ -8,15 +8,15 @@
         course: "devops"
         hours: 150
         tags:
-        - linux
-        - windows
-        - os
-        - redhat
-        - centos
+          - linux
+          - windows
+          - os
+          - redhat
+          - centos
         tags_map:
           name: "vinay"
           age: 26
           learning: "daily"
 
       ansible.builtin.debug:
-        msg: "printing the value {{ tags.map.name }} and {{ tags_map.learning }}"
+        msg: "printing the value {{ tags[0] }} and {{ tags_map.learning }}"
