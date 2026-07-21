@@ -1,0 +1,12 @@
+- name : printing the item
+  hosts : frontend
+  tasks :
+    - name : looping the items
+      debug :
+        msg : "printing the {{ item }}"
+      loop :
+        - linux
+        - redhat
+        - debin
+        - centos
+  
