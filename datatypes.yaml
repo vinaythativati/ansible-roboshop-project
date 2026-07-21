@@ -16,4 +16,4 @@
         age : 26
         learning : "daily"
     debug : 
-      msg: "printing the value {{tags}}[0] and {{tags_map.learning}}"
+      msg: "printing the value {{tags[0]}} and {{tags_map.learning}}"
