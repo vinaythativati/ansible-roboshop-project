@@ -19,4 +19,4 @@
           learning: "daily"
 
       ansible.builtin.debug:
-        msg: "printing the value {{ tags[0] }} and {{ tags_map.learning }}"
+        msg: "printing the value {{ tags }} and {{ tags_map.learning }}"
