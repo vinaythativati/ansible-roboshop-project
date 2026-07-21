@@ -8,11 +8,11 @@
         course: "devops"
         hours: 150
         tags:
-          - linux
-          - windows
-          - os
-          - redhat
-          - centos
+        - linux
+        - windows
+        - os
+        - redhat
+        - centos
         tags_map:
           name: "vinay"
           age: 26
