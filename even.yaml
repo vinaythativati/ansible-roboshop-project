@@ -7,9 +7,9 @@
     - name : printing number even or odd
       debug :
         msg : "printing number even "
-        when : number%2==0 
+      when : number%2==0 
 
     - name : printing number odd
       debug :
         msg : "printing number odd "
-        when : num%2!==0 
+      when : num%2!==0 
