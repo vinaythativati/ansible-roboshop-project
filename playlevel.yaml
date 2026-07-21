@@ -4,7 +4,7 @@
     name : "vinay"
     age : 26
     trainer : "shiva"
-  task :
+  tasks :
     - name :  printing play variables
       debug :
         msg :  "We are printing play level variables {{name}} - {{age}} - {{trainer}}"
