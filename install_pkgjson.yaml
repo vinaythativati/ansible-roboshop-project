@@ -1,0 +1,12 @@
+- name : installing pkgs using map
+  hosts : frontend
+  tasks :
+  - name : install pkgs
+    package :
+      name : "{{ item.name}}"
+      state : "{{ item.state}}"
+    loop :
+    - { name : "zip" , state : "present" }
+    - { name : "git" , state : "present" }
+    - { name : "mysql" , state : "present" }
+
