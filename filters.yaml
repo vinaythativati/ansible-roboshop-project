@@ -22,4 +22,4 @@
 
     - name :  list to map
       debug :
-        msg :  "{{ taMap | items2dict }} " 
+        msg :  "{{ taslist | items2dict }} " 
