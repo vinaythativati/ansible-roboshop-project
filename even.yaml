@@ -11,4 +11,4 @@
     - name : printing number odd
       debug :
         msg : "printing number odd "
-      when : number%2!==0 
+      when : number % 2 != 0 
