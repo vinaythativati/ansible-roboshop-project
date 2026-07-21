@@ -4,9 +4,9 @@
   - name : username
     prompt : "please enter username"
     private : false
-  - name :  password
+  - name : password
     prompt : "please enter password"
-    private : true
+    private : true  
 
   tasks :
     - name :  printing play variables
