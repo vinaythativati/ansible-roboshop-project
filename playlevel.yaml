@@ -1,15 +1,9 @@
 - name : play level variables
   hosts : frontend
-  vars :
-    name : "vinay"
-    age : 26
-    trainer : "shiva"
-    course : "aiops"
+  vars_file :
+    courese.yaml
   tasks :
     - name :  printing play variables
-      vars : 
-        course : "devops"
-        duration : "150"
       debug :
         msg :  "We are printing play level variables {{name}} - {{age}} - {{trainer}} {{course}} {{duration}}"
 
