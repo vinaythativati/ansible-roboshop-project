@@ -1,10 +1,16 @@
 - name : play level variables
   hosts : frontend
-  vars_files :
-  - course.yaml
+  vars_prompt :
+  - name : username
+    prompt : "please enter username"
+    privte : false
+  - name :  password
+    prompt : "please enter password"
+    private : true
+
   tasks :
     - name :  printing play variables
       debug :
-        msg :  "We are printing play level variables {{name}} - {{age}} - {{trainer}} {{course}} {{duration}}"
+        msg :  "{{username}} {{password}}"
 
 
