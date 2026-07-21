@@ -1,0 +1,12 @@
+- name : play level variables
+  hosts : frontend
+  vars :
+    name : "vinay"
+    age : 26
+    trainer : "shiva"
+  task :
+    - name :  printing play variables
+      debug :
+        msg :  "We are printing play level variables {{name}} - {{age}} - {{trainer}}"
+
+
