@@ -6,7 +6,10 @@
     trainer : "shiva"
   tasks :
     - name :  printing play variables
+      vars : 
+        course : "devops"
+        duration : "150"
       debug :
-        msg :  "We are printing play level variables {{name}} - {{age}} - {{trainer}}"
+        msg :  "We are printing play level variables {{name}} - {{age}} - {{trainer}} {{course}} {{duration}}"
 
 
