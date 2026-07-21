@@ -1,0 +1,17 @@
+  - name : filters
+    hosts : frontend
+    vars : 
+      topic : "linux ,  shell ,pkg , debing ,centos"
+      name : "vinay kumar"
+      taMap :
+        name : anisble
+        project : one
+        env : dev
+      taslist :
+      - { key : "name" , value: "jao" }
+      - { key : "nam" , value: "jo" }
+      - { key : "nme" , value: "ao" }  
+    tasks : 
+    - name : string list
+      debug :
+        msg :  "{{topic | split(',')}} " 
